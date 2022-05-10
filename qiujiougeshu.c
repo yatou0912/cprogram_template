@@ -2,18 +2,18 @@
 int main()
 {int num;
 int odd=0;
-int dou=0;
+int even=0;
    do
    {
        scanf("%d",&num);
        if (num%2==0){
-           dou++;
+           even++;
     }
     else if (num%2==1)
     {odd++;
         /* code */
     }
    } while (num !=-1);
-    printf("%d %d",dou,odd);
+    printf("%d %d",even,odd);
 
 }
