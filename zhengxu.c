@@ -12,8 +12,8 @@ mask=mask*10;
 do{
 int d=x/mask;
 printf("%d",d);
-if (mask>9)
-{printf(" ");}
+if (mask>9)// 为了避免最后一位也有空格
+{printf(" ");}// 这里设定当mask大于9  也就是只有前几位才加空格
 x=x%mask;
 mask=mask/10;} while (mask>0);
 printf("\n");
