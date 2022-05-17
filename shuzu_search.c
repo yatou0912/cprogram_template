@@ -34,4 +34,5 @@ for ( i = 0; i <length; i++)
         break;
     }
 }
+   return ret;
 }
